@@ -1,0 +1,31 @@
+{
+  "desktop_environments": [
+    {
+      "name": "GNOME",
+      "image": "gnome:latest",
+      "settings": {
+        "theme": "default",
+        "extensions": []
+      }
+    },
+    {
+      "name": "KDE",
+      "image": "kde:latest",
+      "settings": {
+        "theme": "default",
+        "extensions": []
+      }
+    },
+    {
+      "name": "Xfce",
+      "image": "xfce:latest",
+      "settings": {
+        "theme": "default",
+        "extensions": []
+      }
+    }
+  ],
+  "default_environment": "GNOME",
+  "container_runtime": "lxc",
+  "home_directory_mount": true
+}
